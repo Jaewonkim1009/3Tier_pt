@@ -1,15 +1,9 @@
 # 간단한 3 Tier 구성 AWS Kubernetes 배포 
-<p align='center'>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=black&height=300§ion=header&text=멍탐정%20AI%20🕵️‍♂️&fontSize=50&animation=fadeIn&fontAlignY=38&desc=AI%20기반%20피싱%20대응%20훈련%20플랫폼&descAlignY=76&descAlign=62"/>
-</p>
 
 
 <h2 align="center">
   <a href="https://docs.google.com/presentation/d/11bmyAXGamzG9ASpGTUpu6ezx78wA_Nr8/edit?slide=id.p1#slide=id.p1">
     프로젝트 발표 프레젠테이션 바로가기 |
-  </a>
-  <a href="https://meongtamjeongai.github.io/meongtamjeongai/">
-      아키텍처 발표 프레젠테이션 바로가기
   </a>
 </h2>
 
