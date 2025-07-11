@@ -15,7 +15,8 @@
 ---
 
 ## 🗓️ 프로젝트 타임라인
-![TiemLine](assets/timeline.svg)
+![Timeline](https://github.com/user-attachments/assets/3bbde723-e9b7-4309-9104-ca127e24c12c)
+
 
 ---
 
