@@ -1,4 +1,5 @@
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=AWS%20웹서비스%20기반%로그인/회원가입%20페이지%20구현%20프로젝트&fontSize=45&animation=fadeIn&fontAlignY=38&/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=AWS%20웹서비스%20기반%20로그인%2F회원가입%20페이지%20구현%20프로젝트&fontSize=45&animation=fadeIn&fontAlignY=38"/>
+
 </p>
 
 
