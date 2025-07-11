@@ -1,0 +1,51 @@
+=================
+
+DB 식별자
+
+lgd-rds-mariadb
+
+엔드포인트
+lgd-rds-mariadb.cx0eusekucl1.ap-northeast-2.rds.amazonaws.com
+
+포트
+3306
+
+가용 영역
+ap-northeast-2a
+
+서브넷 그룹
+lgd-rds-mariadb-2025030600505064690000000d
+
+서브넷
+subnet-09b5237c81c64d772
+subnet-0d88090b5bb559822
+
+기본 데이터베이스
+usersdb
+
+계정
+admin
+
+비번
+5495821254
+
+=================
+
+DB 쿼리
+
+- 유저 생성
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+- 유저 로그인
+
+SELECT * FROM users WHERE username = ? AND password = ?
+
+- 유저 업데이트(회원가입)
+
+INSERT INTO users (username, password) VALUES (?, ?)

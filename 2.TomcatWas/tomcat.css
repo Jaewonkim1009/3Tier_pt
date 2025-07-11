@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container, .register-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: fixed; /* 리플로우 방지 */
+    will-change: transform, opacity; /* GPU 가속 활성화 */
+    transform: translate3d(0, 0, 0); /* GPU 가속 강제 적용 */
+    animation: loginFormAppear 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+}
+
+.login-title, .register-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    animation: inputFocus 0.3s ease;
+    border-color: #000;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    outline: none;
+}
+
+button[type="submit"], .signup-button, .cancel-button {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button[type="submit"]:hover, .signup-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+button[type="submit"]:active, .signup-button:active {
+    transform: translateY(1px);
+}
+
+.register-container {
+    width: 350px;
+}
+
+.register-submit-button {
+    margin-bottom: 10px;
+}
+
+.cancel-button {
+    background-color: #ddd;
+    color: #333;
+}
+
+.cancel-button:hover {
+    background-color: #eee;
+    color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cancel-button:active {
+    transform: translateY(1px);
+}
+
+/* 로그인 결과 페이지 스타일 */
+.message {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.welcome-message {
+    color: #008000;
+    font-weight: bold;
+}
+
+.error-message {
+    color: #FF0000;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
