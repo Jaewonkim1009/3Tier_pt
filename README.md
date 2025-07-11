@@ -1,4 +1,4 @@
-# 간단한 3 Tier 구성 AWS Kubernetes 배포 
+# 간단한 로그인 홈페이지 AWS Kubernetes 배포 프로젝트 
 
 
 <h2 align="center">
@@ -21,7 +21,7 @@
 
 ---
 
-## 🧑‍💻 팀원 소개 (Our Team)
+## 프로젝트 팀원
 
 | 이름 | 담당 역할 |
 | :---: | :--- |
@@ -32,7 +32,7 @@
 
 ---
 
-## 🚀 시연 영상 및 주요 결과
+## 주요 결과
 
 **🎬 [전체 기능 시연 영상 보러가기 (Google Drive)](https://drive.google.com/file/d/1CW1RFVTsZT1Ahi1aE7jT4XeDva7bOLPT/view?usp=sharing)**
 
